@@ -32,7 +32,7 @@ class StudentTestCase(TestCase):
             name='test2',
             sex=1,
             email='333@dd.com',
-            profession='程序员',
+            profession='主任',
             qq='3333',
             phone='32222',
         )
