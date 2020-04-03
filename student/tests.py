@@ -51,7 +51,7 @@ class StudentTestCase(TestCase):
             name='test_for_post',
             sex=1,
             email='333@dd.com',
-            profession='程序员',
+            profession='副主任',
             qq='3333',
             phone='32222',
         )
