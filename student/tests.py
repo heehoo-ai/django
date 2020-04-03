@@ -37,7 +37,7 @@ class StudentTestCase(TestCase):
             phone='32222',
         )
         name = 'test'  # 前面setUp()创建过
-        students = Student.objects.filter(name=name)
+        students = Student.objects.filte::r(name=name)
         self.assertEqual(students.count(), 1, '存在一个名为{}的记录'.format(name))
 
     def test_get_index(self):
